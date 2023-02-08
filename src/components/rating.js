@@ -46,7 +46,7 @@ function RatingSelectView({ selectedChoice, onSelect, finalize }) {
           </div>
         </fieldset>
         <div className="mt-3">
-          <button type="submit" className="p-2.5 w-full rounded-full text-white hover:text-custom-orange text-sm bg-custom-orange hover:bg-white uppercase tracking-[0.15em]" onClick={finalize}>Submit</button>
+          <button type="submit" className="p-2.5 w-full rounded-full text-white hover:text-custom-orange text-sm bg-custom-orange hover:bg-white uppercase tracking-[0.15em]" onClick={finalize} disabled={selectedChoice === -1}>Submit</button>
         </div>
       </form>
     </>

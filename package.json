@@ -1,0 +1,25 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url ./ --dist-dir public"
+  },
+  "author": "slightlyfunctional",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@fontsource/overpass": "^4.5.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.16",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.1.8"
+  }
+}

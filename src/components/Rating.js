@@ -1,7 +1,9 @@
 import { useState } from 'react';
 
-// Wrapper container
+import starIcon from '../images/icon-star.svg';
+import thankYouIcon from '../images/illustration-thank-you.svg';
 
+// Wrapper container
 export default function Rating() {
   const [selectedChoice, setSelectedChoice] = useState(-1);
   const [finalized, setFinalized] = useState(false);
@@ -17,10 +19,7 @@ export default function Rating() {
 }
 
 // Allows user to choose an option and submit it.
-
 function RatingSelectView({ selectedChoice, onSelect, finalize }) {
-  const starIcon = new URL('../images/icon-star.svg', import.meta.url);
-
   return (
     <>
       <header>
@@ -54,15 +53,12 @@ function RatingSelectView({ selectedChoice, onSelect, finalize }) {
 }
 
 // Presents a "Thank You" after user selects a value
-
 function ThankYouView({ selectedChoice }) {
-  const thankYou = new URL('../images/illustration-thank-you.svg', import.meta.url);
-  
   return (
     <div className="flex flex-col items-center mb-7">
       <header>
         <div className='mb-7'>
-          <img src={thankYou} alt='thank you' />
+          <img src={thankYouIcon} alt='thank you' />
         </div>
         <div className="mb-7 p-1 pl-5 pr-5 bg-[#253035] rounded-full">
           <span className="text-custom-orange text-custom-xs tracking-wider">You selected { selectedChoice } out of 5</span>

@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Interactive Rating Component - via Gitlab](https://slightlyfunctional.gitlab.io/interactive-rating-component/)
+- Live Site URL: [Interactive Rating Component - via Gitlab](https://username.github.io/interactive-rating-component/)
 
 ## My process
 

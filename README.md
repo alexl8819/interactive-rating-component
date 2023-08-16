@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Interactive Rating Component](https://slightlyfunctional.gitlab.io/interactive-rating-component/)
+- Live Site URL: [Interactive Rating Component - via Gitlab](https://slightlyfunctional.gitlab.io/interactive-rating-component/)
 
 ## My process
 
@@ -46,8 +46,3 @@ Users should be able to:
 ### Continued development
 
 I want to work on making my code completely accessible. I am following the guide on MDN [here](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) to adhere to best practices.
-
-## Author
-
-- Website - [slightlyfunctional.com](https://slightlyfunctional.com)
-- Frontend Mentor - [@slightlyfunctional](https://www.frontendmentor.io/profile/slightlyfunctional)

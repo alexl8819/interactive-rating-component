@@ -9,7 +9,10 @@ export default function Rating() {
   const [finalized, setFinalized] = useState(false);
   
   const onSelect = (selected) => () => setSelectedChoice(selected);
-  const finalize = () => setFinalized(true);
+  const finalize = (e) => {
+    e.preventDefault();
+    setFinalized(true);
+  };
   
   return (
     <div className="w-95 py-8 px-8 pb-4 bg-gradient-to-b from-[#222933] to-[#171e27] rounded-3xl font-overpass text-[0.9375rem] tracking-wider">

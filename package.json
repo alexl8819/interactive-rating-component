@@ -7,11 +7,13 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build --public-url ./ --dist-dir public",
+    "lint": "npx eslint src/**/**.js --max-warnings=0",
     "test": "jest --no-cache"
   },
   "author": "alexl8819",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,6 +25,10 @@
     "@parcel/transformer-svg-react": "^2.9.3",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^14.0.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "jest": "^29.6.2",
     "jest-environment-jsdom": "^29.6.2",
     "jest-transform-stub": "^2.0.0",
